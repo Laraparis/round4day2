@@ -1,0 +1,65 @@
+body {
+  background-color: tan;
+}
+
+[class~="col-md-8"] {
+  background-color: #2D8BAD;
+  height: 250px;
+}
+
+[class~="col-md-4"] {
+  background-color: #862DAD;
+  height: 250px;
+}
+
+[class~="col-lg-6"]:first-of-type {
+  background-color: purple;
+  height: 170px;
+}
+[class~="col-lg-6"]:last-of-type {
+  background-color: magenta;
+  height: 170px;
+}
+
+[class~="col-sm-2"]{
+  height: 200px;
+}
+
+[class~="col-sm-2"]:nth-of-type(1){
+  background-color: red;
+}
+
+[class~="col-sm-2"]:nth-of-type(2){
+  background-color: orange;
+}
+
+[class~="col-sm-2"]:nth-of-type(3){
+  background-color: yellow;
+}
+
+[class~="col-sm-2"]:nth-of-type(4){
+  background-color: green;
+}
+
+[class~="col-sm-2"]:nth-of-type(5){
+  background-color: blue;
+}
+
+[class~="col-sm-2"]:nth-of-type(6){
+  background-color: violet;
+}
+
+[class~="col-md-4"]{
+    background-color: #139A4D;
+    height: 245px;
+}
+
+[class~="col-md-2"]{
+  background-color: #9A135D;
+  height: 245px;
+}
+
+[class~="col-md-6"]{
+  background-color: #19DF27;
+  height: 245px;
+}
